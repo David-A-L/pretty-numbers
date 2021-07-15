@@ -1,0 +1,24 @@
+{
+  "name": "pretty-numbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node --unhandled-rejections=strict ./dist/cli.js",
+    "debug": "export DEBUG=* && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GCLegos/back-end-david-a-l.git"
+  },
+  "author": "David Latva",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
