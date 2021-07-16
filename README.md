@@ -1,2 +1,6 @@
 # pretty-numbers
-Simple CLI for printing numbers in a nice way
+Simple CLI/Module for printing numbers in a nice way
+
+# Usage
+```npm run start -- <number> [-t <tuncate length>]```
+```npm run test```
